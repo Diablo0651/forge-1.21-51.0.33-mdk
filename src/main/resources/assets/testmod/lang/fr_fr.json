@@ -1,0 +1,10 @@
+{
+  "item.testmod.alexandrite": "Gemme d'Alexandrite",
+  "item.testmod.raw_alexandrite": "Alexandrite crue",
+
+  "block.testmod.alexandrite_block": "Bloc d'Alexandrite",
+  "block.testmod.raw_alexandrite_block": "Bloc d'Alexandrite crue",
+
+  "creativetab.testmod.alexandrite_items": "Items d'Alexandrite",
+  "creativetab.testmod.alexandrite_blocks": "Bloc Alexandrite"
+}
