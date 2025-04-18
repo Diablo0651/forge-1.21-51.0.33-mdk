@@ -1,7 +1,7 @@
 {
   "variants":{
     "": {
-      "model": "testmod:block/RAW8alexandrite_block"
+      "model": "testmod:block/raw_alexandrite_block"
     }
   }
 }
