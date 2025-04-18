@@ -2,6 +2,7 @@ package net.diablo.testmod;
 
 import com.mojang.logging.LogUtils;
 import net.diablo.testmod.block.ModBlocks;
+import net.diablo.testmod.item.ModCreativeModeTabs;
 import net.diablo.testmod.item.ModItems;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
@@ -33,6 +34,8 @@ public class TestMod {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
