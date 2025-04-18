@@ -1,6 +1,7 @@
 package net.diablo.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.diablo.testmod.block.ModBlocks;
 import net.diablo.testmod.item.ModItems;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,6 +35,7 @@ public class TestMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -50,6 +52,11 @@ public class TestMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
         }
     }
 
