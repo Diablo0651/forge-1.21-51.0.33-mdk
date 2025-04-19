@@ -4,6 +4,8 @@
 
   "block.testmod.alexandrite_block": "Block of Alexandrite",
   "block.testmod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.testmod.alexandrite_ore": "Alexandrite Ore",
+  "block.testmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
 
   "creativetab.testmod.alexandrite_items": "Alexandrite Items",
   "creativetab.testmod.alexandrite_blocks": "Alexandrite Blocks"
