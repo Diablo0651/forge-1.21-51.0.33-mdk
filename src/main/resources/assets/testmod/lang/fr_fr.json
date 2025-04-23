@@ -7,7 +7,7 @@
   "block.testmod.raw_alexandrite_block": "Bloc d'Alexandrite crue",
   "block.testmod.alexandrite_ore": "Minerai d'Alexandrite",
   "block.testmod.alexandrite_deepslate_ore": "Minerai d'Alexandrite des Abîmes",
-
+  "item.testmod.magic_block": "Bloc Magique",
   "creativetab.testmod.alexandrite_items": "Items d'Alexandrite",
   "creativetab.testmod.alexandrite_blocks": "Bloc Alexandrite"
 }

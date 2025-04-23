@@ -25,6 +25,7 @@ public class ChiselItem extends Item {
                     Blocks.NETHERRACK,Blocks.NETHER_BRICKS,
                     Blocks.TUFF,Blocks.CHISELED_TUFF_BRICKS,
                     Blocks.IRON_BLOCK,Blocks.IRON_BARS,
+                    Blocks.IRON_BARS,Blocks.IRON_BLOCK,
                     Blocks.DIRT, ModBlocks.ALEXANDRITE_BLOCK.get()
 
             );
